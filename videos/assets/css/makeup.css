@@ -69,17 +69,24 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-
-.lateral-spaced {
-	margin-left: 3px;
-	margin-right:3px;
-}
-
 .img-thumbnail {
   display: inline-block;
   margin-bottom: 30px;
 }
 
-.pushed {
-	margin-left:10px;
+.responsive-video {
+max-width: 100%;
+height: auto;
+}
+
+.glyphicon-arrow-left {
+	font-size: 1em;
+}
+
+.btn {
+	line-height: 1em;
+}
+
+.back-btn {
+	margin-top: 10px;
 }

@@ -11,26 +11,26 @@
 </head>
 <body>
   <div class="full">
-
-
     <div class="main">
-      <h2>Header</h2>
+      <div class="back-btn">
+      <a href="index.html" target="self"><button class="btn btn-default">
+        <span class="glyphicon glyphicon-arrow-left"></span> Tilbage
+      </button></a>
+      </div>
+      <h2>Video 1</h2>
       <div class="row">
         <div class="col-md-12">
           <div>
-            <a href="assets/videos/smukfest.mp4">
-              <img class="img-thumbnail" src="assets/images/thumb.png"/>
-            </a>
+            <video class="responsive-video" width="720" height="540" controls>
+              <source src="assets/videos/1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
-
       </div>
-
     </div>
-
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
 </body>
 </html>

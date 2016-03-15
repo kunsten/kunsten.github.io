@@ -1,38 +1,35 @@
 
 <html>
-  <head>
-  <title>1</title>
-  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-  <link rel="stylesheet" type="text/css" href="slick/makeup.css"/>
-  <meta http-equiv="refresh" content="900">
-  </head>
-  <body>
-  <div class="images">
-    <div><img src="https://googledrive.com/host/0Bx9IRgO74OrgemZ5ejFZSHU3RTg/1.jpg" /></div>
-    <div><img src="https://googledrive.com/host/0Bx9IRgO74OrgemZ5ejFZSHU3RTg/2.jpg" /></div>
-    <div><img src="https://googledrive.com/host/0Bx9IRgO74OrgemZ5ejFZSHU3RTg/3.jpg" /></div>
-  </div>
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="slick/slick.min.js"></script>
-	<script type="text/javascript">
-	  $(document).ready(function(){
-	    $('.images').slick({
-	      autoplay: true,
-	      autoplaySpeed: 8000,
-	      slidesToShow: 1,
-	      infinite: true,
-	      speed: 600,
-	    });
-	  });
-	  
-	  function redirect(){
-	      setTimeout(function(){window.location='index.html'},300000);
-	  }
-	  window.onload=redirect;
-	</script>
+<head>
+<title>1</title>
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+<link rel="stylesheet" type="text/css" href="slick/makeup.css"/>
+</head>
+<body>
+<div class="images">
+<div><img src="https://googledrive.com/host/0Bx9IRgO74OrgemZ5ejFZSHU3RTg/1.jpg" /></div>
+<div><img src="https://googledrive.com/host/0Bx9IRgO74OrgemZ5ejFZSHU3RTg/2.jpg" /></div>
+<div><img src="https://googledrive.com/host/0Bx9IRgO74OrgemZ5ejFZSHU3RTg/3.jpg" /></div>
+</div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.images').slick({
+autoplay: true,
+autoplaySpeed: 8000,
+slidesToShow: 1,
+infinite: true,
+speed: 600,
+});
+});
 
-
-  </body>
+function redirect(){
+setTimeout(function(){window.location='index.html'},300000);
+}
+window.onload=redirect;
+</script>
+</body>
 </html>

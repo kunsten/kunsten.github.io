@@ -16,17 +16,23 @@
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $('.images').slick({
-        autoplay: true,
-        slidesToShow: 1,
-        arrows: true,
-        infinite: true,
-        speed: 500,
-      });
-    });
-  </script>
+	<script type="text/javascript">
+	  $(document).ready(function(){
+	    $('.images').slick({
+	      autoplay: true,
+	      autoplaySpeed: 8000,
+	      slidesToShow: 1,
+	      infinite: true,
+	      speed: 600,
+	    });
+	  });
+	  
+	  function redirect(){
+	      setTimeout(function(){window.location='index.html'},300000);
+	  }
+	  window.onload=redirect;
+	</script>
+
 
   </body>
 </html>

@@ -6,13 +6,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>BODYBOOK</title>
 <style>
-video{width:100%!important;height:auto!important;}
 *{margin:0px;padding:0px;}
+#bodyvideo:-webkit-full-screen {
+  width: 100%!important;
+  height: 100%!important;
+}
 </style>
 </head>
 <body>
-<video loop autoplay>
+<video loop autoplay id="bodyvideo">
 <source src="http://bodybook.s3.amazonaws.com/bodybook.mp4">
 </video>
 </body>
+<script>
+var elem = document.getElementById("bodyvideo");
+if (elem.requestFullscreen) {
+  elem.requestFullscreen();
+}
+</script>
 </html>

@@ -7,8 +7,14 @@
 <title>BODYBOOK</title>
 <style>
 *{margin:0px;padding:0px;}
-#bodyvideo:-webkit-full-screen {
+#bodyvideo {
+  position: fixed;
   height: 100%!important;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1000;
 }
 </style>
 </head>
@@ -17,10 +23,4 @@
 <source src="http://bodybook.s3.amazonaws.com/bodybook.mp4">
 </video>
 </body>
-<script>
-var elem = document.getElementById("bodyvideo");
-if (elem.requestFullscreen) {
-  elem.requestFullscreen();
-}
-</script>
 </html>

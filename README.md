@@ -1,2 +1,2 @@
 # kunsten.github.io
-Hej
+Art is cool

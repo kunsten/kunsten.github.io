@@ -74,6 +74,8 @@ a:hover {
 .img-thumbnail {
   display: inline-block;
   margin-bottom: 30px;
+  border-radius: 0px;
+  padding: 2px;
 }
 
 .responsive-video {

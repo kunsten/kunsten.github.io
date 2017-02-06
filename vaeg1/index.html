@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VÆG1</title>
+<style>
+* {
+	margin:0px;
+	padding:0px;
+	background:black!important;}
+
+body {
+	background: black!important;
+}
+
+#container {
+  position: fixed;
+  height: 100%!important;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1000;
+}
+
+video {
+	height: auto!important;
+	width: 100%!important;
+}
+</style>
+</head>
+<body>
+	<video controls id="container" src="https://player.vimeo.com/external/195941239.hd.mp4?s=7104aaeeb1840ccbe288c2c959ea2912f9d9a6c9&profile_id=119">
+	</video>
+	
+	
+<script>
+(function() {
+   var myvid = document.getElementById('container');
+   var myvids = [
+     "https://player.vimeo.com/external/195941239.hd.mp4?s=7104aaeeb1840ccbe288c2c959ea2912f9d9a6c9&profile_id=119", 	//Svensk ko
+     "https://player.vimeo.com/external/202723150.hd.mp4?s=1b91b2cf459fd84e6c0677d4cd63115d1eaf5f4d&profile_id=174",	//Græshoppedans
+     "https://player.vimeo.com/external/202723190.hd.mp4?s=32a3ac945527083336f76aa10f6bd37f8170c519&profile_id=174"		//London Hotel
+     ];
+   var activeVideo = 0;
+   
+   myvid.addEventListener('ended', function(e) {
+     // update the new active video index
+     activeVideo = (++activeVideo) % myvids.length;
+   
+     // update the video source and play
+     myvid.src = myvids[activeVideo];
+     myvid.play();
+   });
+   
+    document.getElementsByTagName('video')[0].play();
+
+   
+})();
+</script>
+</body>
+
+</html>
+

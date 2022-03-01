@@ -19,24 +19,21 @@
 		}
 		
 		#container {
-		  position: fixed;
-		  height: 100%!important;
-		  top: 0;
-		  left: 0;
-		  bottom: 0;
-		  right: 0;
-		  z-index: -1000;
+			position: relative;
 		}
 		
 		video {
 			height: auto!important;
+			top: 0;
+    		left: 0;
 			width: 100%!important;
+			max-width: 100%;
 		}
 		</style>
 	</head>
 	
 	<body>
-		<video loop autoplay loop muted playsinline controls id="container">
+		<video loop autoplay loop playsinline controls id="container">
 		<source src="https://player.vimeo.com/progressive_redirect/playback/682775585/rendition/1080p?loc=external&signature=2e3bc0f3d09a53b425255245e4e50f548337ee1785f479958991d63f272d2c13">
 		</video>
 	</body>

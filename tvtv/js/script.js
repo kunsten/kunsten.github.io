@@ -20,6 +20,6 @@ $(window).on('resize', function (){
 });
 
 $('.carousel').carousel({
-  interval: 12000,
+  interval: 1000,
   pause: "false"
 });

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "ProgrammeAlt";
+    src: url("../fonts/Programme-BoldAlt.woff");
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: "ProgrammeAlt";
+    src: url("../fonts/Programme-RegularAlt.woff");
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "Programme";
+    src: url("../fonts/Programme-Bold.woff");
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: "Programme";
+    src: url("../fonts/Programme-Regular.woff");
+    font-weight: normal;
+  }

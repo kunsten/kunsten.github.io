@@ -431,13 +431,14 @@ body {
 
 @media (prefers-color-scheme: light) {
   .logo {
-    filter: contrast(100%) brightness(200%);
+    filter: contrast(100%) brightness(100%);
   }
 }
 
 @media (prefers-color-scheme: dark) {
   .logo {
     filter: contrast(0%) brightness(200%);
+    width:35%;
   }
 }
 

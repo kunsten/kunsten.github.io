@@ -419,6 +419,28 @@ body {
     }
 }
 
+.logo {
+  width:35%;
+  margin-bottom:10px;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: light) {
+  .logo {
+    filter: contrast(100%) brightness(200%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .logo {
+    filter: contrast(0%) brightness(200%);
+  }
+}
+
 
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

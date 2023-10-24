@@ -1,0 +1,85 @@
+body {
+    font-family: "Programme", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 150%;
+}
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 500px;
+    padding: 20px;
+    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    padding: 1px 30px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
+
+#dk {
+    background-color: #cfd8dc;
+    margin-bottom: 60px;
+}
+
+#int {
+    background-color: #cfd8dc;
+}
+
+h1 {
+    text-align: center;
+}
+
+@font-face {
+    font-family: "ProgrammeAlt";
+    src: url("fonts/Programme-BoldAlt.woff");
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: "ProgrammeAlt";
+    src: url("fonts/Programme-RegularAlt.woff");
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "Programme";
+    src: url("fonts/Programme-Bold.woff");
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: "Programme";
+    src: url("fonts/Programme-Regular.woff");
+    font-weight: normal;
+  }
+
+
+  .btn {
+    position: relative;
+    display: block;
+    margin: 30px auto;
+    padding: 15px 45px;
+    overflow: hidden;
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    background-color: #000000;
+    color: #ffffff;
+    transition: background-color .3s;
+  }
+  
+  .btn:hover, .btn:focus {
+    background-color: #414141;
+  }
+ 
+  .btn a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 180%;
+  }
+

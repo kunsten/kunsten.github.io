@@ -1,0 +1,1 @@
+window.top.location.href = "https://kunsten.github.io/utzon-reception/"; 
